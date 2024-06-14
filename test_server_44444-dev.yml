@@ -1,5 +1,5 @@
 server:
-  port: 21000
+  port: 44444
 spring:
   application:
     name: 'customer_server_21000'
