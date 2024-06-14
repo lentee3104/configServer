@@ -4,6 +4,7 @@ spring:
   application:
     name: 'customer_server_21000'
   datasource:
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://120.79.197.220:3306/elm?createDatabaseIfNotExist=true
     username: yxy
     password: yxy913949yxy
