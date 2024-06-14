@@ -3,6 +3,14 @@ server:
 spring:
   application:
     name: 'customer_server_21000'
+  datasource:
+    url: jdbc:mysql://120.79.197.220:3306/elm?createDatabaseIfNotExist=true
+    username: yxy
+    password: yxy913949yxy
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 eureka: #这里都是发给服务注册中心看的
   instance:
     prefer-ip-address: true
