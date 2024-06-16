@@ -2,7 +2,7 @@ server:
   port: 11000
 spring:
   application:
-    name: 'provider-server'
+    name: 'provider-server-test'
 eureka: #这里都是发给服务注册中心看的
   instance:
     prefer-ip-address: true
